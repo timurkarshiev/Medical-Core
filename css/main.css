@@ -125,4 +125,10 @@ img {
     background-repeat: no-repeat;
     background-position: right 25px center;
     appearance: none;
+    transition: background 2s, color 2s;
+}
+
+.header-join-btn:hover {
+    background-color: #36B3FF;
+    color: #6A97BE;
 }
