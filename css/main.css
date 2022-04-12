@@ -51,6 +51,7 @@ img {
 .site-header {
     padding-top: 20px;
     padding-bottom: 20px;
+    background: #FFF5F0;
 }
 
 .header-container {
@@ -124,11 +125,223 @@ img {
     background-image: url("../images/header-btn.svg");
     background-repeat: no-repeat;
     background-position: right 25px center;
+    border: 1px solid transparent;
     appearance: none;
-    transition: background 2s, color 2s;
+    transition: background 3s, color 1s;
 }
 
 .header-join-btn:hover {
-    background-color: #36B3FF;
-    color: #6A97BE;
+    background-color: white;
+    color: #1BA0AB;
+    border: 1px solid #1BA0AB;
+}
+
+/* SECTION HERO */
+
+.section-hero {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background: #FFF5F0;
+    background-image: url("../images/hero-nurse.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 450px);
+}
+
+.hero-container {
+    width: 1479px;
+    padding-top: 26px;
+}
+
+.hero-left {
+    padding: 163px 132px;
+}
+
+.hero-top-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #1BA0AB;
+    margin-bottom: 30px;
+}
+
+.hero-main-heading {
+    margin: 0;
+    max-width: 542px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 30px;
+}
+
+.hero-desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 30px;
+}
+
+.hero-join-btn {
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #1BA0AB;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    appearance: none;
+    transition: background 1s, color 1s;
+    margin-right: 10px;
+}
+
+.hero-join-btn:hover {
+    background-color: white;
+    color: #1BA0AB;
+    border: 1px solid #1BA0AB;
+}
+
+.hero-learn-btn {
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #1BA0AB;
+    border: 1px solid #1BA0AB;
+    border-radius: 5px;
+    appearance: none;
+    transition: background 1s, color 1s;
+}
+
+.hero-learn-btn:hover {
+    background-color: #1BA0AB;;
+    color: white
+}
+
+/* SECTION ACTIVITY */
+
+.activity {
+    padding: 160px 200px 219px 195px;
+}
+
+.activity-container {
+    width: 1085px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-box {
+    max-width: 351px;
+}
+
+.activity-line {
+    display: inline-block;
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+    margin-bottom: 35px;
+}
+
+.activity-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 35px;
+}
+
+.activity-desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 35px;
+}
+
+.learn-btn {
+    max-width: 104px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BA0AB;
+    display: flex;
+    align-items: center;
+}
+
+.icon-next {
+    margin-left: 10px;
+}
+
+.activity-card-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.activity-card-item {
+    padding: 35px 47px 35px 35px;
+    max-width: 239px;
+}
+
+.activity-card-item + .activity-card-item {
+    margin-left: 30px;
+}
+
+.activity-card-link {
+    width: 70px;
+    padding: 22px 19px;
+    background-color: #1BA0AB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.activity-card-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 20px;
+}
+
+.activity-devider {
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+    margin-bottom: 20px;
+}
+
+.activity-card-desc {
+    margin: 0;
+    width: 132px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
 }
