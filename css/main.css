@@ -140,16 +140,14 @@ img {
 
 .section-hero {
     padding-top: 26px;
-    padding-bottom: 26px;
     background: #FFF5F0;
     background-image: url("../images/hero-nurse.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% + 450px);
+    background-position: calc(50% + 400px);
 }
 
 .hero-container {
     width: 1479px;
-    padding-top: 26px;
 }
 
 .hero-left {
@@ -267,6 +265,7 @@ img {
 
 .activity-desc {
     margin: 0;
+    width: 346px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -344,4 +343,272 @@ img {
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #737373;
+}
+
+/* SECTION EXPERTS */
+
+.experts {
+    padding: 160px 197px 108px 197px;
+}
+
+.experts-container {
+    width: 1085px;
+    display: flex;
+    align-items: center;
+}
+
+.experts-box {
+    max-width: 381px;
+    margin-left: 144px;
+}
+
+/* SECTION REFERENCE */
+
+.reference {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.reference-container {
+    width: 1085px;
+}
+
+.reference-top {
+    margin-bottom: 96px;
+}
+
+.reference-top-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BA0AB;
+    margin-bottom: 10px;
+}
+
+.reference-main-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.reference-top-desc {
+    margin: 0;
+    width: 463px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.reference-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.reference-bottom-left {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.reference-bottom-card-left {
+    width: 209px;
+    height: 378px;
+    background-image: url("../images/doctor.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.reference-card-desc {
+    margin: 0;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 51px;
+    background: #E74040;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.button {
+    position: relative;
+    top: 289px;
+    left: 26px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    transition: background 1s;
+}
+
+.button + .button {
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #1BA0AB;
+}
+
+.card-left-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-width: 242px;
+}
+
+.card-left-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+
+.card-left-top-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BA0AB;
+}
+
+.card-left-main-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.card-left-main-desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 15px;
+}
+
+.card-item-label {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 20px;
+}
+
+.card-item-label img {
+    margin-right: 10px;
+}
+
+.save-btn {
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+.card-left-price-list {
+    margin-bottom: 25px;
+}
+
+.price-left {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+    margin-right: 5px;
+}
+
+.price-right {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #F69B25;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.card-info-desc {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.card-info-desc + .card-info-desc {
+    margin-left: 11px;
+}
+
+.info-img {
+    margin-right: 5px;
+}
+
+.reference-bottom-btn {
+    background-image: url("../images/icon-next.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    padding: 10px 39px 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BA0AB;
+    border: 1px solid #1BA0AB;
+    border-radius: 37px;
+    transition: background 1s, color 1s;
+}
+
+.reference-bottom-btn:hover {
+    background-color: #1BA0AB;
+    color: white;
+    border: 1px solid #1BA0AB;
+}
+
+.reference-bottom-right {
+    display: flex;
+    align-items: center;
+}
+
+.reference-bottom-card-right {
+    width: 209px;
+    height: 378px;
+    background-image: url("../images/medicine.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 15px;
 }
